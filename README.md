@@ -1,8 +1,7 @@
 
 # Skype 历史记录导出器
 
-**这是一个简单的脚本，主要用来导出Skype Version 8.0以上的版本,旧版本Skype 7.0及以下中main.db采用的sqlite数据结构，  
-而8.0后不再支持采用了新的数据结构方式，用了Google 开源的 Level Db.**
+**这是一个简单的脚本，主要用来导出Skype Version 8.0以上的版本,旧版本Skype 7.0及以下中main.db采用的sqlite数据结构,而8.0后不再支持采用了新的数据结构方式，用了Google 开源的 Level Db.**
 
 `(Skype 采用了Electron框架的[浏览器] IndexedDB来作为数据库，他是一个Google开源的LevelDB数据库文件，里面保存着聊天记录，联系人列表的缓存记录)`
 ```bash
